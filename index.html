@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahía Aljarafe | Freiduría & Marisquería en Bormujos</title>
+    <!-- Tailwind CSS CDN para estilos responsivos y modernos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .bg-sea { background-color: #0b2545; }
+        .text-sea { color: #0b2545; }
+        .bg-gold { background-color: #d4af37; }
+        .text-gold { color: #d4af37; }
+        .border-gold { border-color: #d4af37; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- Navegación -->
+    <nav class="sticky top-0 z-50 bg-sea text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-anchor text-gold text-2xl"></i>
+                <div>
+                    <span class="text-2xl font-bold tracking-wide uppercase block leading-none">Bahía Aljarafe</span>
+                    <span class="text-xs italic text-gold">La mar en su boca</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-6 font-medium text-sm">
+                <a href="#inicio" class="hover:text-gold transition">Inicio</a>
+                <a href="#nosotros" class="hover:text-gold transition">Nosotros</a>
+                <a href="#carta" class="hover:text-gold transition">Carta</a>
+                <a href="#horario" class="hover:text-gold transition">Horario</a>
+                <a href="#contacto" class="hover:text-gold transition">Reservas</a>
+            </div>
+            <a href="tel:955919999" class="bg-gold text-slate-900 font-bold px-4 py-2 rounded-full hover:bg-yellow-500 transition text-sm flex items-center gap-2">
+                <i class="fa-solid fa-phone"></i> Reservar
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero / Inicio -->
+    <section id="inicio" class="relative bg-sea text-white py-24 px-4 text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <span class="bg-emerald-600 text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider inline-flex items-center gap-2">
+                <i class="fa-solid fa-wheat-awn-circle-exclamation"></i> Disponemos de Pescado Sin Gluten
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">Freiduría & Marisquería Tradicional</h1>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto">
+                Disfruta del mejor pescaíto frito, mariscos frescos y atún rojo en nuestro cómodo salón o en nuestra amplia terraza.
+            </p>
+            <div class="pt-4 flex justify-center gap-4 flex-wrap">
+                <a href="#carta" class="bg-gold text-slate-900 font-bold px-6 py-3 rounded-lg hover:bg-yellow-500 transition">Ver la Carta</a>
+                <a href="#contacto" class="border border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white hover:text-slate-900 transition">Dónde Estamos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section id="nosotros" class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="text-gold text-4xl mb-3"><i class="fa-solid fa-wheat-straw"></i></div>
+                <h3 class="text-xl font-bold text-sea mb-2">Comida Sin Gluten</h3>
+                <p class="text-slate-600 text-sm">Contamos con freidoras e ingredientes adaptados para ofrecer todo el sabor del pescaíto frito con total seguridad.</p>
+            </div>
+            <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="text-gold text-4xl mb-3"><i class="fa-solid fa-sun"></i></div>
+                <h3 class="text-xl font-bold text-sea mb-2">Salón y Terraza</h3>
+                <p class="text-slate-600 text-sm">Elige entre la comodidad de nuestro salón climatizado o disfruta del aire libre en nuestra agradable terraza.</p>
+            </div>
+            <div class="p-6 border rounded-xl shadow-sm hover:shadow-md transition">
+                <div class="text-gold text-4xl mb-3"><i class="fa-solid fa-fish"></i></div>
+                <h3 class="text-xl font-bold text-sea mb-2">Especialidad en Atún Rojo</h3>
+                <p class="text-slate-600 text-sm">Selección de cortes de atún rojo salvaje (Tarantelo, Ventresca, Parpatana) preparados a la perfección.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carta del Restaurante -->
+    <section id="carta" class="py-16 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-sea uppercase tracking-wide">Nuestra Carta</h2>
+                <div class="w-16 h-1 bg-gold mx-auto my-2"></div>
+                <p class="text-slate-600">Precios y especialidades de la mar en Bormujos</p>
+            </div>
+
+            <!-- Navegación secundaria para la carta -->
+            <div class="flex flex-wrap justify-center gap-2 mb-10 text-xs md:text-sm">
+                <a href="#entrantes-frios" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Entrantes Fríos</a>
+                <a href="#chacinas" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Chacinas</a>
+                <a href="#entrantes-calientes" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Entrantes Calientes</a>
+                <a href="#mariscos" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Mariscos & Plancha</a>
+                <a href="#pescaito-frito" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Pescaíto Frito</a>
+                <a href="#atun-rojo" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Atún Rojo</a>
+                <a href="#bebidas-vinos" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Bebidas & Vinos</a>
+                <a href="#postres" class="bg-white border px-3 py-1.5 rounded-full hover:bg-sea hover:text-white transition">Postres</a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- Entrantes Fríos -->
+                <div id="entrantes-frios" class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-gold">
+                    <h3 class="text-xl font-bold text-sea mb-4 flex justify-between items-center">
+                        Entrantes Fríos <span class="text-xs text-slate-500 font-normal">Tapa / Media</span>
+                    </h3>
+                    <ul class="space-y-3 divide-y divide-slate-100 text-sm">
+                        <li class="pt-2 flex justify-between"><span>Anchoas XXL (6 udes)</span> <span class="font-bold text-sea">17.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Ensaladilla Bahía</span> <span class="font-bold text-sea">3.70€ / 7.40€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Ensaladilla Pulpo</span> <span class="font-bold text-sea">3.90€ / 7.90€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Mejillones al natural</span> <span class="font-bold text-sea">3.50€ / 7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tomate con Melva</span> <span class="font-bold text-sea">- / 8.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Mojama</span> <span class="font-bold text-sea">4.00€ / 8.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Gildas (ud)</span> <span class="font-bold text-sea">2.70€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Papas aliñá</span> <span class="font-bold text-sea">3.50€ / 7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Aceitunas Gordales</span> <span class="font-bold text-sea">- / 2.50€</span></li>
+                    </ul>
+                </div>
+
+                <!-- Chacinas -->
+                <div id="chacinas" class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-gold">
+                    <h3 class="text-xl font-bold text-sea mb-4 flex justify-between items-center">
+                        Chacinas <span class="text-xs text-slate-500 font-normal">Tapa / Media</span>
+                    </h3>
+                    <ul class="space-y-3 divide-y divide-slate-100 text-sm">
+                        <li class="pt-2 flex justify-between"><span>Queso viejo</span> <span class="font-bold text-sea">3.50€ / 8.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Queso Payoyo</span> <span class="font-bold text-sea">3.50€ / 8.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tabla de Quesos</span> <span class="font-bold text-sea">- / 12.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tabla Queso y Caña Lomo</span> <span class="font-bold text-sea">- / 12.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tabla de Caña Lomo</span> <span class="font-bold text-sea">- / 12.00€</span></li>
+                    </ul>
+                </div>
+
+                <!-- Entrantes Calientes -->
+                <div id="entrantes-calientes" class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-gold">
+                    <h3 class="text-xl font-bold text-sea mb-4">Entrantes Calientes</h3>
+                    <ul class="space-y-3 divide-y divide-slate-100 text-sm">
+                        <li class="pt-2 flex justify-between"><span>Pulpo a la Gallega</span> <span class="font-bold text-sea">15.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Gambas al Ajillo</span> <span class="font-bold text-sea">14.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Almejas de Carril</span> <span class="font-bold text-sea">15.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Coquinas</span> <span class="font-bold text-sea">14.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Ventresca Bacalao y Gambas</span> <span class="font-bold text-sea">12.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Gulas con Gambas al Ajillo</span> <span class="font-bold text-sea">10.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Alcachofitas con gambas</span> <span class="font-bold text-sea">10.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Almejas con gambas</span> <span class="font-bold text-sea">17.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Mejillones al vapor</span> <span class="font-bold text-sea">10.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Gambas cristal con pimientos asados</span> <span class="font-bold text-sea">11.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Pimientos del padrón</span> <span class="font-bold text-sea">7.50€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tartar de atún</span> <span class="font-bold text-sea">14.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Pan y picos</span> <span class="font-bold text-sea">1.00€</span></li>
+                    </ul>
+                </div>
+
+                <!-- Mariscos y Plancha -->
+                <div id="mariscos" class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-gold">
+                    <h3 class="text-xl font-bold text-sea mb-4">Mariscos y Nuestra Plancha</h3>
+                    <ul class="space-y-3 divide-y divide-slate-100 text-sm">
+                        <li class="pt-2 flex justify-between"><span>Gambas Blancas</span> <span class="font-bold text-sea">S/P</span></li>
+                        <li class="pt-2 flex justify-between"><span>Langostinos</span> <span class="font-bold text-sea">S/P</span></li>
+                        <li class="pt-2 flex justify-between"><span>Vieiras (min. 2 udes.)</span> <span class="font-bold text-sea">4.00€ ud.</span></li>
+                        <li class="pt-2 flex justify-between"><span>Choco sucio</span> <span class="font-bold text-sea">S/P</span></li>
+                        <li class="pt-2 flex justify-between"><span>Pata Pulpo</span> <span class="font-bold text-sea">S/P</span></li>
+                        <li class="pt-2 flex justify-between"><span>Pez Espada</span> <span class="font-bold text-sea">12.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Zamburiñas a la plancha</span> <span class="font-bold text-sea">28.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Mini pulpo plancha (unidad)</span> <span class="font-bold text-sea">14.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Calamar de potera</span> <span class="font-bold text-sea">S/P</span></li>
+                        <li class="pt-2 flex justify-between"><span>Brochetas varias</span> <span class="font-bold text-sea">S/P</span></li>
+                    </ul>
+                </div>
+
+                <!-- Pescaíto Frito -->
+                <div id="pescaito-frito" class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-gold">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-xl font-bold text-sea">Pescaíto Frito</h3>
+                        <span class="text-xs bg-emerald-100 text-emerald-800 font-semibold px-2 py-0.5 rounded">Sin Gluten Opción</span>
+                    </div>
+                    <ul class="space-y-3 divide-y divide-slate-100 text-sm">
+                        <li class="pt-2 flex justify-between"><span>Adobo</span> <span class="font-bold text-sea">6.50€ (1/4 kg)</span></li>
+                        <li class="pt-2 flex justify-between"><span>Croquetas de Merluza y Gambas</span> <span class="font-bold text-sea">7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Croquetas de Puchero</span> <span class="font-bold text-sea">7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Croquetas de Cola de Toro</span> <span class="font-bold text-sea">7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Croquetas de Carrillá</span> <span class="font-bold text-sea">7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Croquetas de Gambas al Ajillo</span> <span class="font-bold text-sea">7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Boquerones</span> <span class="font-bold text-sea">7.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Chocos</span> <span class="font-bold text-sea">8.90€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Merluza</span> <span class="font-bold text-sea">7.40€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Gambas Fritas</span> <span class="font-bold text-sea">8.90€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Salmonetes</span> <span class="font-bold text-sea">9.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Acedías</span> <span class="font-bold text-sea">9.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Pijotas</span> <span class="font-bold text-sea">9.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Bacalao</span> <span class="font-bold text-sea">8.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Puntillitas</span> <span class="font-bold text-sea">9.00€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tortillitas de Camarón (unidad)</span> <span class="font-bold text-sea">7.50€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tortillitas de bacalao</span> <span class="font-bold text-sea">1.80€</span></li>
+                        <li class="pt-2 flex justify-between"><span>Huevas</span> <span class="font-bold text-sea">10.00€</span></li>
+                    </ul>
+                </div>
+
+                <!-- Atún Rojo Salvaje -->
+                <div id="atun-rojo" class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-gold">
+                    <h3 class="text-xl font-bold text-sea mb-4">Atún Rojo Salvaje</h3>
+                    <ul class="space-y-3 divide-y divide-slate-100 text-sm">
+                        <li class="pt-2 flex justify-between"><span>Ventresca</span> <span class="font-bold text-sea">S/M</span></li>
+                        <li class="pt-2 flex justify-between"><span>Tarantelo</span> <span class="font-bold text-sea">S/M</span></li>
+                        <li class="pt-2 flex justify-between"><span>Plato</span> <span class="font-bold text-sea">S/M</span></li>
+                        <li class="pt-2 flex justify-between"><span>Parpatana</span> <span class="font-bold text-sea">S/M</span></li>
+                        <li class="pt-2 flex justify-between"><span>Lingote de Atún</span> <span class="font-bold text-sea">S/M</span></li>
+                    </ul>
+                </div>
+
+                <!-- Vinos y Bebidas -->
+                <div id="bebidas-vinos" class="bg-white p-6 rounded-xl shadow-sm border-t-4 border-gold md:col-span-2">
+                    <h3 class="text-xl font-bold text-sea mb-4">Vinos & Bebidas</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+                        
+                        <!-- Rioja & Ribera -->
+                        <div>
+                            <h4 class="font-bold text-gold uppercase mb-2 border-b pb-1">Rioja & Ribera</h4>
+                            <ul class="space-y-2">
+                                <li class="flex justify-between"><span>Beronia (Rioja)</span> <span class="font-bold text-sea">3.00€ / 15.00€</span></li>
+                                <li class="flex justify-between"><span>Ramón Bilbao (Rioja)</span> <span class="font-bold text-sea">3.00€ / 16.00€</span></li>
+                                <li class="flex justify-between"><span>Cune (Rioja)</span> <span class="font-bold text-sea">2.80€ / 15.00€</span></li>
+                                <li class="flex justify-between"><span>Celeste (Ribera)</span> <span class="font-bold text-sea">3.00€ / 16.00€</span></li>
+                                <li class="flex justify-between"><span>Finca Resalso (Ribera)</span> <span class="font-bold text-sea">3.50€ / 16.00€</span></li>
+                                <li class="flex justify-between"><span>Protos (Ribera)</span> <span class="font-bold text-sea">3.00€ / 16.00€</span></li>
+                            </ul>
+                        </div>
+
+                        <!-- Blancos -->
+                        <div>
+                            <h4 class="font-bold text-gold uppercase mb-2 border-b pb-1">Vinos Blancos</h4>
+                            <ul class="space-y-2">
+                                <li class="flex justify-between"><span>Barbadillo</span> <span class="font-b
