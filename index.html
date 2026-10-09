@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahía Aljarafe | Freiduría & Marisquería en Bormujos</title>
+
+    <!-- Tipografías de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Iconos FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Archivo CSS Personalizado vinculado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="brand">
+                <i class="fa-solid fa-anchor brand-icon"></i>
+                <div>
+                    <span class="brand-name">Bahía Aljarafe</span>
+                    <span class="brand-slogan">La mar en su boca</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#carta">Carta</a></li>
+                <li><a href="#horario">Horario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a href="tel:955919999" class="btn btn-gold">
+                <i class="fa-solid fa-phone"></i> Reservar
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero / Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="badge-gluten">
+                <i class="fa-solid fa-wheat-awn-circle-exclamation"></i> Pescado Sin Gluten Disponible
+            </div>
+            <h1>Freiduría & Marisquería Tradicional</h1>
+            <p>Disfruta del mejor pescaíto frito, mariscos frescos y atún rojo salvaje en nuestro amplio salón o en nuestra terraza exterior.</p>
+            <div class="hero-buttons">
+                <a href="#carta" class="btn btn-gold">Ver la Carta</a>
+                <a href="#contacto" class="btn btn-outline">Dónde Estamos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section id="nosotros" class="features">
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-wheat-straw feature-icon"></i>
+                <h3>Comida Sin Gluten</h3>
+                <p>Procesos e ingredientes cuidadosamente adaptados para ofrecer todo el sabor del pescaíto frito con total seguridad celiaca.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-sun feature-icon"></i>
+                <h3>Salón y Terraza</h3>
+                <p>Elige entre la comodidad de nuestro salón climatizado o el ambiente relajado de nuestra terraza exterior.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-fish feature-icon"></i>
+                <h3>Atún Rojo Salvaje</h3>
+                <p>Selección especial de los mejores cortes de atún rojo (Tarantelo, Ventresca, Parpatana) listos para degustar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carta -->
+    <section id="carta" class="menu-section">
+        <div class="section-header">
+            <h2>Nuestra Carta</h2>
+            <div class="gold-divider"></div>
+            <p>Especialidades marineras y raciones tradicionales en Bormujos</p>
+        </div>
+
+        <div class="menu-nav">
+            <a href="#entrantes-frios" class="menu-nav-link">Entrantes Fríos</a>
+            <a href="#chacinas" class="menu-nav-link">Chacinas</a>
+            <a href="#entrantes-calientes" class="menu-nav-link">Entrantes Calientes</a>
+            <a href="#mariscos" class="menu-nav-link">Mariscos</a>
+            <a href="#pescaito-frito" class="menu-nav-link">Pescaíto Frito</a>
+            <a href="#atun-rojo" class="menu-nav-link">Atún Rojo</a>
+            <a href="#bebidas-vinos" class="menu-nav-link">Vinos & Bebidas</a>
+            <a href="#postres" class="menu-nav-link">Postres</a>
+        </div>
+
+        <div class="menu-grid">
+
+            <!-- Entrantes Fríos -->
+            <div id="entrantes-frios" class="menu-category">
+                <h3 class="category-title">
+                    Entrantes Fríos <span class="category-subtitle">Tapa / Media</span>
+                </h3>
+                <ul class="menu-list">
+                    <li class="menu-item"><span>Anchoas XXL (6 udes)</span> <span class="item-price">17.00€</span></li>
+                    <li class="menu-item"><span>Ensaladilla Bahía</span> <span class="item-price">3.70€ / 7.40€</span></li>
+                    <li class="menu-item"><span>Ensaladilla Pulpo</span> <span class="item-price">3.90€ / 7.90€</span></li>
+                    <li class="menu-item"><span>Mejillones al natural</span> <span class="item-price">3.50€ / 7.00€</span></li>
+                    <li class="menu-item"><span>Tomate con Melva</span> <span class="item-price">8.00€</span></li>
+                    <li class="menu-item"><span>Mojama</span> <span class="item-price">4.00€ / 8.00€</span></li>
+                    <li class="menu-item"><span>Gildas (ud)</span> <span class="item-price">2.70€</span></li>
+                    <li class="menu-item"><span>Papas aliñá</span> <span class="item-price">3.50€ / 7.00€</span></li>
+                    <li class="menu-item"><span>Aceitunas Gordales</span> <span class="item-price">2.50€</span></li>
+                </ul>
+            </div>
+
+            <!-- Chacinas -->
+            <div id="chacinas" class="menu-category">
+                <h3 class="category-title">
+                    Chacinas <span class="category-subtitle">Tapa / Media</span>
+                </h3>
+                <ul class="menu-list">
+                    <li class="menu-item"><span>Queso viejo</span> <span class="item-price">3.50€ / 8.00€</span></li>
+                    <li class="menu-item"><span>Queso Payoyo</span> <span class="item-price">3.50€ / 8.00€</span></li>
+                    <li class="menu-item"><span>Tabla de Quesos</span> <span class="item-price">12.00€</span></li>
+                    <li class="menu-item"><span>Tabla Queso y Caña Lomo</span> <span class="item-price">12.00€</span></li>
+                    <li class="menu-item"><span>Tabla de Caña Lomo</span> <span class="item-price">12.00€</span></li>
+                </ul>
+            </div>
+
+            <!-- Entrantes Calientes -->
+            <div id="entrantes-calientes" class="menu-category">
+                <h3 class="category-title">Entrantes Calientes</h3>
+                <ul class="menu-list">
+                    <li class="menu-item"><span>Pulpo a la Gallega</span> <span class="item-price">15.00€</span></li>
+                    <li class="menu-item"><span>Gambas al Ajillo</span> <span class="item-price">14.00€</span></li>
+                    <li class="menu-item"><span>Almejas de Carril</span> <span class="item-price">15.00€</span></li>
+                    <li class="menu-item"><span>Coquinas</span> <span class="item-price">14.00€</span></li>
+                    <li class="menu-item"><span>Ventresca Bacalao y Gambas</span> <span class="item-price">12.00€</span></li>
+                    <li class="menu-item"><span>Gulas con Gambas al Ajillo</span> <span class="item-price">10.00€</span></li>
+                    <li class="menu-item"><span>Alcachofitas con gambas</span> <span class="item-price">10.00€</span></li>
+                    <li class="menu-item"><span>Almejas con gambas</span> <span class="item-price">17.00€</span></li>
+                    <li class="menu-item"><span>Mejillones al vapor</span> <span class="item-price">10.00€</span></li>
+                    <li class="menu-item"><span>Gambas cristal con pimientos asados</span> <span class="item-price">11.00€</span></li>
+                    <li class="menu-item"><span>Pimientos del padrón</span> <span class="item-price">7.50€</span></li>
+                    <li class="menu-item"><span>Tartar de atún</span> <span class="item-price">14.00€</span></li>
+                    <li class="menu-item"><span>Pan y picos</span> <span class="item-price">1.00€</span></li>
+                </ul>
+            </div>
+
+            <!-- Mariscos y Plancha -->
+            <div id="mariscos" class="menu-category">
+                <h3 class="category-title">Mariscos y Plancha</h3>
+                <ul class="menu-list">
+                    <li class="menu-item"><span>Gambas Blancas</span> <span class="item-price">S/P</span></li>
+                    <li class="menu-item"><span>Langostinos</span> <span class="item-price">S/P</span></li>
+                    <li class="menu-item"><span>Vieiras (min. 2 udes.)</span> <span class="item-price">4.00€ ud.</span></li>
+                    <li class="menu-item"><span>Choco sucio</span> <span class="item-price">S/P</span></li>
+                    <li class="menu-item"><span>Pata Pulpo</span> <span class="item-price">S/P</span></li>
+                    <li class="menu-item"><span>Pez Espada</span> <span class="item-price">12.00€</span></li>
+                    <li class="menu-item"><span>Zamburiñas a la plancha</span> <span class="item-price">28.00€</span></li>
+                    <li class="menu-item"><span>Mini pulpo plancha (unidad)</span> <span class="item-price">14.00€</span></li>
+                    <li class="menu-item"><span>Calamar de potera</span> <span class="item-price">S/P</span></li>
+                    <li class="menu-item"><span>Brochetas varias</span> <span class="item-price">S/P</span></li>
+                </ul>
+            </div>
+
+            <!-- Pescaíto Frito -->
+            <div id="pescaito-frito" class="menu-category">
+                <h3 class="category-title">
+                    Pescaíto Frito <span class="category-subtitle">Opción Sin Gluten</span>
+                </h3>
+                <ul class="menu-list">
+                    <li class="menu-item"><span>Adobo (1/4 kg)</span> <span class="item-price">6.50€</span></li>
+                    <li class="menu-item"><span>Croquetas de Merluza y Gambas</span> <span class="item-price">7.00€</span></li>
+                    <li class="menu-item"><span>Croquetas de Puchero / Cola de Toro</span> <span class="item-price">7.00€</span></li>
+                    <li class="menu-item"><span>Croquetas de Carrillá / Gambas al Ajillo</span> <span class="item-price">7.00€</span></li>
+                    <li class="menu-item"><span>Boquerones</span> <span class="item-price">7.00€</span></li>
+                    <li class="menu-item"><span>Chocos</span> <span class="item-price">8.90€</span></li>
+                    <li class="menu-item"><span>Merluza</span> <span class="item-price">7.40€</span></li>
+                    <li class="menu-item"><span>Gambas Fritas</span> <span class="item-price">8.90€</span></li>
+                    <li class="menu-item"><span>Salmonetes / Acedías / Pijotas</span> <span class="item-price">9.00€</span></li>
+                    <li class="menu-item"><span>Bacalao</span> <span class="item-price">8.00€</span></li>
+                    <li class="menu-item"><span>Puntillitas</span> <span class="item-price">9.00€</span></li>
+                    <li class="menu-item"><span>Tortillitas de Camarón (unidad)</span> <span class="item-price">7.50€</span></li>
+                    <li class="menu-item"><span>Tortillitas de Bacalao</span> <span class="item-price">1.80€</span></li>
+                    <li class="menu-item"><span>Huevas</span> <span class="item-price">10.00€</span></li>
+                </ul>
+            </div>
+
+            <!-- Atún Rojo -->
+            <div id="atun-rojo" class="menu-category">
+                <h3 class="category-title">Atún Rojo Salvaje</h3>
+                <ul class="menu-list">
+                    <li class="menu-item"><span>Ventresca</span> <span class="item-price">S/M</span></li>
+                    <li class="menu-item"><span>Tarantelo</span> <span class="item-price">S/M</span></li>
+                    <li class="menu-item"><span>Plato</span> <span class="item-price">S/M</span></li>
+                    <li class="menu-item"><span>Parpatana</span> <span class="item-price">S/M</span></li>
+                    <li class="menu-item"><span>Lingote de Atún</span> <span class="item-price">S/M</span></li>
+                </ul>
+            </div>
+
+            <!-- Vinos -->
+            <div id="bebidas-vinos" class="menu-category full-width-card">
+                <h3 class="category-title">Vinos & Selección</h3>
+                <div class="wine-grid">
+                    <div class="wine-subgroup">
+                        <h4>Rioja & Ribera</h4>
+                        <ul class="menu-list">
+                            <li class="menu-item"><span>Beronia (Rioja)</span> <span class="item-price">3.00€ / 15.00€</span></li>
+                            <li class="menu-item"><span>Ramón Bilbao (Rioja)</span> <span class="item-price">3.00€ / 16.00€</span></li>
+                            <li class="menu-item"><span>Cune (Rioja)</span> <span class="item-price">2.80€ / 15.00€</span></li>
+                            <li class="menu-item"><span>Celeste (Ribera)</span> <span class="item-price">3.00€ / 16.00€</span></li>
+                            <li class="menu-item"><span>Finca Resalso (Ribera)</span> <span class="item-price">3.50€ / 16.00€</span></li>
+                            <li class="menu-item"><span>Protos (Ribera)</span> <span class="item-price">3.00€ / 16.00€</span></li>
+                        </ul>
+                    </div>
+                    <div class="wine-subgroup">
+                        <h4>Blancos</h4>
+                        <ul class="menu-list">
+                            <li class="menu-item"><span>Barbadillo / Maestrante</span> <span class="item-price">3.00€ / 14.00€</span></li>
+                            <li class="menu-item"><span>Señorío de Heliche</span> <span class="item-price">3.00€ / 14.00€</span></li>
+                            <li class="menu-item"><span>Árabe / Novio Perfecto</span> <span class="item-price">3.00€ / 14.00€</span></li>
+                            <li class="menu-item"><span>Rueda / José Pariente</span> <span class="item-price">14.00€</span></li>
+                            <li class="menu-item"><span>Frizzante Yllera</span> <span class="item-price">3.00€ / 20.00€</span></li>
+                            <li class="menu-item"><span>Canto 5 / Albariño</span> <span class="item-price">3.00€ / 15.00€</span></li>
+                            <li class="menu-item"><span>Terras Gaudas</span> <span class="item-price">24.00€</span></li>
+                            <li class="menu-item"><span>Viña Barredero</span> <span class="item-price">3.00€ / 15.00€</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Postres -->
+            <div id="postres" class="menu-category full-width-card">
+                <h3 class="category-title">Postres Caseros</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">
+                    Consulte con nuestro personal la selección de postres caseros y postres recomendados aptos para celíacos.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Información, Horarios y Ubicación -->
+    <section id="horario" class="info-section">
+        <div class="info-container">
+            
+            <div>
+                <h2>Horario de Apertura</h2>
+                <div class="gold-divider" style="margin-left: 0;"></div>
+                <div class="hours-box">
+                    <div class="hours-row">
+                        <span>Lunes</span>
+                        <span class="closed">Cerrado por descanso</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Martes a Jueves</span>
+                        <span>13:00 - 16:00 | 20:45 - 23:45</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Viernes</span>
+                        <span>13:00 - 16:00 | 20:45 - 00:30</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Sábado</span>
+                        <span>13:00 - 16:00 | 21:00 - 00:00</span>
+                    </div>
+                    <div class="hours-row">
+                        <span>Domingo</span>
+                        <span>13:00 - 16:15</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contacto">
+                <h2>Ubicación y Reservas</h2>
+                <div class="gold-divider" style="margin-left: 0;"></div>
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem;">
+                    Nos encontramos situados frente al Hospital San Juan de Dios en Bormujos (Sevilla).
+                </p>
+                
+                <div class="contact-detail">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <strong>Dirección:</strong><br>
+                        <span style="color: var(--text-muted);">Avda. Universidad de Salamanca, 7 Local 10, 41930 Bormujos, Sevilla</span>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <strong>Teléfonos de Reserva:</strong><br>
+                        <a href="tel:955919999" style="font-weight: bold; color: var(--primary-blue);">955 91 99 99</a> / 
+                        <a href="tel:680865936" style="font-weight: bold; color: var(--primary-blue);">680 86 59 36</a>
+                    </div>
+                </div>
+
+                <div style="margin-top: 2rem;">
+                    <a href="tel:955919999" class="btn btn-blue">
+                        <i class="fa-solid fa-phone"></i> Llamar para Reservar
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-title">Bahía Aljarafe &copy; 2026 - Freiduría & Marisquería</p>
+        <p>Avda. Universidad de Salamanca, 7 Local 10 - Bormujos, Sevilla</p>
+    </footer>
+
+</body>
+</html>
